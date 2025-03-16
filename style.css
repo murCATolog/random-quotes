@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    max-width: 800px;
+    background-color: #a7d9f6;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    font-style: italic;
+    position: relative;
+    padding: 20px;
+    border-left: 4px solid #ffe600;
+    margin: 20px 0;
+    background-color: #f4ff8d;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.author {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+/* КНОПКА */
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Зміна кольору при наведенні */
+    transform: scale(1.05); /* Збільшення при наведенні */
+}
